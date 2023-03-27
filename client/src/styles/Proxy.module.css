@@ -1,0 +1,87 @@
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.proxyContainer {
+    margin-top: 138.36px;
+    padding: 115px 0px;
+    background: #0566D4;
+    width: 100%;
+}
+
+.innercontainer {
+    width: 100%;
+    max-width: 1186px;
+    margin: auto;
+}
+
+.proxyHeading {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.proxySubText {
+    width: 30vw;
+    margin: auto;
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+.innerBottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 30px;
+}
+
+.innerBottom > div {
+    /* width: 286px;
+    height: 160px; */
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    text-align: start;
+    padding: 25px;
+}
+
+.innerBottomDiv > h3 {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.innerBottomDiv > p {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 8px;
+}

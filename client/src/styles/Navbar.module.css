@@ -1,0 +1,128 @@
+.navbarContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer {
+    width: 100%;
+    max-width: 1192px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #D9D8D6;
+    padding: 10px;
+}
+
+.innerLeft {
+    display: flex;
+    align-items: center;
+    /* width: 60%; */
+    /* justify-content: space-between; */
+}
+
+.logoDiv {
+    display: flex;
+    margin-right: 31px;
+}
+
+.logo {
+    width: 33px;
+    height: 33px;
+    margin-right: 8.76px;
+}
+
+.logoText {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #111822;
+}
+
+.navContents {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.navContents > span {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #111822;
+    /* border: 1px solid red; */
+}
+
+.arrow {
+    margin-left: 8px;
+    width: 9.5px;
+    height: 5.5px;
+}
+
+.innerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* outline: 1px solid red; */
+    width: 30%;
+}
+
+.discordDiv {
+    display: flex;
+    align-content: flex-end;
+    /* outline: 1px solid red; */
+}
+
+.discordImg {
+    height: 16px;
+    width: 16px;
+    margin-right: 5.67px;
+}
+
+.discordText {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #5865F2;
+}
+
+.loginDiv {
+    display: flex;
+    align-items: center;
+}
+
+.homeBtn {
+    width: 127px;
+    height: 39px;
+    background: #077BFF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .innerContainer {
+        display: none;
+    }
+}
