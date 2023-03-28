@@ -33,6 +33,7 @@ p {
     text-align: center;
     letter-spacing: -0.02em;
     color: #111822;
+    margin: auto;
 }
 
 .blueText {
@@ -75,6 +76,7 @@ p {
     line-height: 22px;
     letter-spacing: -0.02em;
     color: #FFFFFF;
+    margin: auto;
 }
 
 .ratingDiv {
@@ -125,7 +127,7 @@ p {
     justify-content: center;
     border: 1px solid #D4EAE8;
     border-radius: 5px;
-    width: 285.84px;
+    width: 20vw;
     height: 95.28px;
     gap: 16px;
 }
@@ -172,7 +174,7 @@ p {
     left: 25%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .welcomeText {
         /* font-family: 'Figtree'; */
         font-style: normal;
@@ -184,5 +186,28 @@ p {
         letter-spacing: -0.02em;    
         color: #111822;  
         opacity: 0.5;
+    }
+
+    .infoText {
+        /* font-family: 'Figtree'; */
+        /* width: 60vw; */
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        /* line-height: 43px; */
+        text-align: center;
+        letter-spacing: -0.02em;
+        /* margin: auto; */
+        color: #111822;
+    }
+
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .boxes > div {
+        width: 50vw;
     }
   }

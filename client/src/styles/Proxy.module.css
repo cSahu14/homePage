@@ -85,3 +85,132 @@ h3 {
     opacity: 0.5;
     margin-top: 8px;
 }
+
+
+/*  */
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.proxyContainerMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 95px;
+}
+
+.infoText {
+    width: 45vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #111822;
+    margin: auto;
+}
+
+
+.mainContent > textarea {
+    width: 45vw;
+    height: 169px;
+    background: rgba(217, 216, 214, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.btnDiv {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnDiv > button {
+    width: 223px;
+    height: 39px;
+    left: 606px;
+    top: 611px;
+    background: #077BFF;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    margin-top: 21px;
+}
+
+.policyText {
+    width: 40%;
+    text-align: start;
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #111822;
+}
+
+.tableDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 41px;
+}
+
+table {
+    width: 47vw;
+    background: rgba(217, 216, 214, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 17px;
+}
+
+thead {
+    width: 25%;
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+td {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    letter-spacing: -0.02em;
+    
+    color: #111822;
+}
+
+.checker {
+    margin-top: 40px;
+    display: flex;
+}
+
+.checker > p {
+    margin-right: 15px;
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: -0.02em;
+    
+    color: #111822;
+}
+
