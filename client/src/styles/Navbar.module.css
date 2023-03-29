@@ -100,6 +100,9 @@
 .loginDiv {
     display: flex;
     align-items: center;
+    padding-left: 25px;   
+    height: 31.5px;
+    border-left: 1px solid #D9D8D6;
 }
 
 .burgerMenu {
