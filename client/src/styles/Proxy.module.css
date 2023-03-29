@@ -1,3 +1,4 @@
+
 p {
     padding: 0px;
     margin: 0px;
@@ -114,6 +115,10 @@ p {
     margin: auto;
 }
 
+.mainContent {
+    width: 100%;
+}
+
 
 .mainContent > textarea {
     width: 45vw;
@@ -161,6 +166,8 @@ p {
 }
 
 .tableDiv {
+    width: 47%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -169,7 +176,7 @@ p {
 }
 
 table {
-    width: 47vw;
+    width: 45vw;
     background: rgba(217, 216, 214, 0.05);
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -182,6 +189,8 @@ thead {
     border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
+
+
 td {
     /* font-family: 'Figtree'; */
     font-style: normal;
@@ -189,7 +198,7 @@ td {
     font-size: 14px;
     line-height: 17px;
     /* identical to box height */
-    
+    padding: 8px;
     letter-spacing: -0.02em;
     
     color: #111822;
@@ -213,4 +222,195 @@ td {
     
     color: #111822;
 }
+
+@media (300px <= width <= 760px) {
+
+    .proxyContainerMain{
+        padding-top: 25px;
+        margin: 0rem 1rem;
+    }
+
+    .mainContent > textarea {
+        width: 98%;
+        height: 169px;
+        background: rgba(217, 216, 214, 0.25);
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+
+    .btnDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        align-items: flex-start;
+    }
+
+    .btnDiv > button {
+        width: 50%;
+        height: 35px;
+        background: #077BFF;
+        border-radius: 10.0357px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        border-radius: 8px;
+        color: #FFFFFF;
+        margin-top: 21px;
+        border: none;
+        outline: none;
+    }
+    .policyText {
+        width: 100%;
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12.0999px;
+        /* line-height: 34px; */
+        letter-spacing: -0.02em;     
+        color: #111822;      
+        opacity: 0.5;
+    }
+
+    .tableDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 17px;
+    }
+    
+    table {
+        width: 91vw;
+        background: rgba(217, 216, 214, 0.05);
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        margin-top: 17px;
+    }
+    
+    thead {
+        width: 150%;
+        background: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.25);
+    }
+
+    tr {
+        padding: 30px;
+    }
+    
+    td {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        
+        letter-spacing: -0.02em;
+        
+        color: #111822;
+    }
+
+    .checker {
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .checker > p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12.1285px;
+        letter-spacing: -0.02em;  
+        color: #111822;
+    }
+
+    .checker > span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12.1285px;
+        letter-spacing: -0.02em;       
+    }
+
+    .proxyContainer {
+        margin-top: 100.36px;
+        padding: 85px 0px;
+        background: #0566D4;
+        width: 100%;
+    }
+
+    .proxyHeading {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    .proxySubText {
+        width: 80%;
+        margin: auto;
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-top: 10px;
+    }
+    .innerBottom {
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 30px;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .innerBottom > div {
+        /* width: 286px;
+        height: 160px; */
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 5px;
+        text-align: start;
+        padding: 10px;
+    }
+    
+    .innerBottomDiv > h3 {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+    
+    .innerBottomDiv > p {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        opacity: 0.5;
+        margin-top: 8px;
+    }
+}
+
+
 

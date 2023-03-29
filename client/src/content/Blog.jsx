@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Plan.module.css";
-import RightArrow from "../svgIcons/RightArrow.svg"
+import RightIcon1 from "../svgIcons/RightIcon1.svg"
 
 const Blog = () => {
   return (
@@ -14,7 +14,7 @@ const Blog = () => {
           augue sit amet mollis molestie.
         </p>
       </div>
-        <p className={styles.blogText}> Read All Blogs <img src={RightArrow} alt="rightArrow" /></p>
+        <p className={styles.blogText}> Read All Blogs <span><img src={RightIcon1} alt="rightArrow" className={styles.rightArrow}/></span> </p>
         <div className={styles.blogMainDiv}>
             <div>
                 <div className={styles.blogDiv}>

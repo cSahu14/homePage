@@ -3,13 +3,24 @@ import styles from "../styles/Navbar.module.css"
 import CompanyLogo from "../svgIcons/CompanyLogo.svg"
 import Arrow from "../svgIcons/Arrow.svg"
 import Discord from "../svgIcons/Discord.svg"
+import BurgerMenu from "../svgIcons/BurgerMenu.svg"
+import Proxy from '../proxyPage/Proxy'
+import {useNavigate} from "react-router-dom"
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
+    const handleProxy = () => {
+        return navigate("/proxy") 
+    }
+    const handleHome = () => {
+        return navigate("/")
+    }
   return (
     <div className={styles.navbarContainer}>
         <div className={styles.innerContainer}>
             <div className={styles.innerLeft}>
-                <div className={styles.logoDiv}>
+                <div className={styles.logoDiv} onClick={handleHome}>
                     <img src={CompanyLogo} alt="logo" className={styles.logo}/>
                     <span className={styles.logoText}>CreativeProxies</span>
                 </div>
@@ -28,7 +39,10 @@ const Navbar = () => {
                 </div>
                 <div className={styles.loginDiv}>
                     <span>Log in</span>
-                    <button className={styles.homeBtn}>Get Started</button>
+                    <button className={styles.homeBtn} onClick={handleProxy}>Get Started</button>
+                    <div className={styles.burgerMenu}>
+                        <img src={BurgerMenu} alt="berger menu" />
+                    </div>
                 </div>
             </div>
         </div>

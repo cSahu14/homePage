@@ -12,8 +12,13 @@ import Rect3 from "../svgIcons/Rect3.svg";
 import Rectangle4 from "../svgIcons/Rectangle4.svg";
 import Rect4 from "../svgIcons/Rect4.svg";
 import ProxyProviders from "./ProxyProviders";
+import {useNavigate} from "react-router-dom"
 
 const Content = () => {
+  const navigate = useNavigate()
+  const handleProxy = () => {
+    return navigate("/proxy")
+  }
   return (
     <div className={styles.mainContainer}>
       <div>
@@ -28,7 +33,7 @@ const Content = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
           augue sit amet mollis molestie.
         </p>
-        <button className={styles.contentBtn}>
+        <button className={styles.contentBtn} onClick={handleProxy}>
           Get Started <img src={RightArrow} alt="" />
         </button>
       </div>

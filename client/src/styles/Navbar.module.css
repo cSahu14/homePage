@@ -102,6 +102,10 @@
     align-items: center;
 }
 
+.burgerMenu {
+    display: none;
+}
+
 .homeBtn {
     width: 127px;
     height: 39px;
@@ -121,8 +125,96 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 600px) {
+@media (300px <= width <= 760px) {
+
+    .navbarContainer {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 1rem;
+    }
+    
     .innerContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #D9D8D6;
+        padding: 10px 0px;
+    }
+    .navContents {
+      display: none;
+    }
+    .discordDiv {
+      display: none;
+    }
+
+    .logoDiv {
+        display: flex;
+        align-items: center;
+        margin-right: 21px;
+    }
+    .logo {
+        width: 23px;
+        height: 23px;
+        margin-right: 8.76px;
+    }
+    
+    .logoText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: -0.02em;
+        color: #111822;
+    }
+
+    .innerRight {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        /* outline: 1px solid red; */
+        width: 45%;
+    }
+
+    .loginDiv > span {
         display: none;
     }
+
+    .homeBtn {
+        width: 95px;
+        height: 29px;
+        background: #077BFF;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin: 0px 8px 0px 0px;
+    }
+
+    .burgerMenu {
+        display: flex;
+        height: 29px;
+        width: 29px;
+        background: rgba(7, 123, 255, 0.25);
+        border-radius: 8.52px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .burgerMenu > img {
+        width: 17px;
+        height: 17px;
+    }
+    
 }

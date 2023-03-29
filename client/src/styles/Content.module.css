@@ -3,12 +3,13 @@ p {
     padding: 0px;
 }
 
+
 .mainContainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 95px;
+    padding-top: 55px;
 }
 
 .welcomeText {
@@ -174,40 +175,106 @@ p {
     left: 25%;
 }
 
-@media only screen and (max-width: 720px) {
+@media (300px <= width <= 760px) {
+
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 55px;
+    }
     .welcomeText {
+        /* font-family: 'Figtree'; */
         /* font-family: 'Figtree'; */
         font-style: normal;
         font-weight: 600;
-        font-size: 40px;
-        line-height: 48px;
-        /* identical to box height */      
+        font-size: 10.339px;
+        line-height: 24px;
         text-align: center;
-        letter-spacing: -0.02em;    
-        color: #111822;  
+        letter-spacing: -0.02em;     
+        color: #111822;   
         opacity: 0.5;
     }
 
     .infoText {
         /* font-family: 'Figtree'; */
-        /* width: 60vw; */
+        width: 95%;
         /* font-family: 'Figtree'; */
         font-style: normal;
         font-weight: 600;
-        font-size: 26px;
-        /* line-height: 43px; */
+        font-size: 30.1864px;
+        line-height: 35px;
         text-align: center;
         letter-spacing: -0.02em;
-        /* margin: auto; */
         color: #111822;
+        
+    }
+
+    .infoText2 {
+        /* font-family: 'Figtree'; */
+        width: 80%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10.9661px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        
+        color: #111822;
+        
+        opacity: 0.5;
     }
 
     .boxes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 16.16px;
+        margin-top: 36.36px;
+    }
+    .boxes > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #D4EAE8;
+        border-radius: 5px;
+        width: 90%;
+        height: 45.28px;
+        gap: 16px;
+        padding: 10px;
     }
 
-    .boxes > div {
-        width: 50vw;
+    .rectangle {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        top: 0;
+        left: 0;
+    }
+
+    .rect1 {
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .boxText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10.551px;
+        line-height: 15px;
+        letter-spacing: -0.02em;
+        
+        color: #111822;
+    }
+
+    .divider {
+        width: 100%;
     }
   }

@@ -12,7 +12,7 @@ const Proxy = () => {
       <div className={style.proxyContainerMain}>
         <div>
           <p className={styles.welcomeText}>PROXY LOCATION CHECKER</p>
-          <p className={style.infoText}>
+          <p className={styles.infoText}>
             Check Locations of all your Proxies{" "}
             <span className={styles.blueText}>Free</span> of Cost
           </p>
@@ -28,7 +28,7 @@ const Proxy = () => {
             id=""
             cols="30"
             rows="10"
-            placeholder="8.8.8.8 1.1.1.1 192.168.1.1"
+            placeholder={`8.8.8.8 \n1.1.1.1 \n192.168.1.1`}
           ></textarea>
           <div className={style.btnDiv}>
             <button>Check Location</button>

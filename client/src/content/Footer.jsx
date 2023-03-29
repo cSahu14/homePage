@@ -7,12 +7,14 @@ const Footer = () => {
   return (
     <div className={styles.footerDiv}>
       <div className={styles.footerFirstDiv}>
-        <div className={styles.logoDiv}>
-            <img src={CompanyLogo} alt="logo" />
-            <span className={styles.logoText}>CreativeProxies</span>
-        </div>
-        <div className={styles.copyright}>Copyright © 2023 Creative Proxies. All rights reserved.</div>
         <div>
+          <div className={styles.logoDiv}>
+              <img src={CompanyLogo} alt="logo" />
+              <span className={styles.logoText}>CreativeProxies</span>
+          </div>
+          <div className={styles.copyright}>Copyright © 2023 Creative Proxies. All rights reserved.</div>
+        </div>
+        <div className={styles.discordBtn}>
           <button>
             <img src={Discord} alt="discord" />
             <span>Join Our Discord</span>

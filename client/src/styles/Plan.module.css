@@ -295,6 +295,11 @@ p, h2 {
     margin-right: 8px;
 }
 
+.rightArrow {
+    width: 20px;
+    height: 20px;
+}
+
 
 /* RAting div */
 
@@ -389,6 +394,249 @@ p, h5 {
 
 .profileImg {
     margin-right: 5px;
+}
+
+@media (300px <= width <= 760px) {
+    .planContainer{
+        margin: 0rem 1rem;
+        padding: 100px 0px;
+    }
+
+    .rightArrow {
+        width: 10px;
+        height: 10px;
+    }
+
+    .headingContainer > h2{
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #111822;
+    }
+    
+    .headingContainer > p {
+        margin-top: 10px;
+        width: 90%;
+        margin: auto;
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #111822;
+        opacity: 0.5;
+    }
+    .plansDiv {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+        justify-content: center;
+        margin-top: 49px;
+        gap: 20px;
+        /* border: 1px solid red; */
+    }
+    
+    .plansDivOne {
+        width: 70%;
+        margin: auto;
+        padding: 26px;
+        background: rgba(30, 30, 30, 0.01);
+        border: 1px solid rgba(30, 30, 30, 0.1);
+        border-radius: 5px;
+        height: 376px;
+    }
+    
+    .plansDivTwo {
+        width: 70%;
+        margin: auto;
+        padding: 26px;
+        background: rgba(30, 30, 30, 0.01);
+        border: 1px solid rgba(30, 30, 30, 0.1);
+        border-radius: 5px;
+    }
+
+    .blueBtn {
+        width: 100%;
+        height: 47px;
+        background: #077BFF;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin-top: 8px;
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.02em; 
+        color: #FFFFFF;
+    }
+
+    
+    .greenBtn {
+        width: 100%;
+        height: 47px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin-top: 8px;
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.02em; 
+        color: #FFFFFF;
+        background: #2CE617;
+    }
+
+    .bestseller {
+        background: rgba(30, 30, 30, 0.01);
+        border: 1px solid rgba(30, 30, 30, 0.1);
+        border-radius: 5px;
+        width: 90%;
+        /* margin: auto; */
+        margin-top: 21px;
+        padding: 11px 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .bestsellerDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    
+    .heading {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        color: #111822;
+    }
+    
+    .bestSellerText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: -0.02em;   
+        color: #111822;   
+        opacity: 0.5;
+    }
+    
+    .bestsellerImg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .bestSellerSecondDiv {
+        text-align: start;
+        width: 60%;
+        margin-left: 34px;
+    }
+    
+    .bestSellerSecondDiv > p {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 19px;
+        letter-spacing: -0.02em;  
+        color: #111822;  
+        opacity: 0.5;
+    }
+    
+    .bestSellerSecondDiv > ul {
+        display: grid;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .bestSellerSecondDiv > ul > li {
+        margin-top: 8px;
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: -0.02em;   
+        color: #111822;  
+        opacity: 0.8;  
+    }
+    
+    .bestSellerSecondDiv > ul > li > img {
+        width: 8.5px;
+        height: 8.5px;   
+        margin-right: 8px;
+    }
+
+    .ratingMainDiv {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 85%;
+        margin: auto;
+        gap: 17px;
+        margin-top: 34px;
+    }
+    
+    .ratingDiv {
+        padding: 15px;
+        background: rgba(30, 30, 30, 0.01);
+        border: 1px solid rgba(22, 209, 19, 0.5);
+        border-radius: 5px;
+        text-align: start;
+    }
+
+    .blogContainer {
+        width: 100%;
+        background: linear-gradient(180deg, #F7FAFF 0%, rgba(255, 255, 255, 0) 100%);
+        border: 1px solid rgba(30, 30, 30, 0.1);
+        border-radius: 5px;
+        margin-top: 70px;
+        padding: 65px 10px 35px 10px;
+    }
+
+    .blogText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: -0.02em;   
+        color: #077BFF;    
+    }
+    
+    .blogMainDiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-top: 40px;
+    }
+    
+    .blogDiv {
+        background: rgba(7, 123, 255, 0.1);
+        border: 1px solid rgba(7, 123, 255, 0.5);
+        border-radius: 5px;
+        width: 88%;
+        height: 111px;
+    }
+    
 }
 
 

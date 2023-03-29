@@ -94,7 +94,7 @@ const Plans = () => {
       </div>
       <div className={styles.bestseller}>
         <div className={styles.bestsellerDiv}>
-          <img src={Bestseller} alt="bestseller" />
+          <img src={Bestseller} alt="bestseller" className={styles.bestsellerImg}/>
           <p className={styles.heading}>Become a Reseller</p>
           <p className={styles.bestSellerText}>200+ Happy Resellers</p>
         </div>
