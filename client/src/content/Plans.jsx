@@ -24,18 +24,18 @@ const Plans = () => {
             <div>
               <img src={V4} alt="" />
               <h3 className={styles.subHeading}>IPv4 Proxies</h3>
-              <p>Static/Rotating</p>
+              <p className={styles.routingText}>Static/Rotating</p>
             </div>
             <div className={styles.plansHeaderTextDiv}>
               <p className={styles.plansHeaderPriceText}>FROM</p>
               <p className={styles.plansHeaderText}>
                 {" "}
-                <span className={styles.blueText}>$4.75</span>/day
+                <span className={styles.blueText}>$4.75</span><span className={styles.perPlan}>/day</span> 
               </p>
               <p className={styles.plansHeaderPriceText}>OR</p>
               <p className={styles.plansHeaderText}>
                 {" "}
-                <span className={styles.blueText}>$116.75</span>/mo
+                <span className={styles.blueText}>$116.75</span><span className={styles.perPlan}>/mo</span>
               </p>
             </div>
           </div>
@@ -59,18 +59,18 @@ const Plans = () => {
             <div>
               <img src={V6} alt="" />
               <h3 className={styles.subHeading}>IPv6 Proxies</h3>
-              <p>Static/Rotating</p>
+              <p className={styles.routingText}>Static/Rotating</p>
             </div>
             <div className={styles.plansHeaderTextDiv}>
               <p className={styles.plansHeaderPriceText}>FROM</p>
               <p className={styles.plansHeaderText}>
                 {" "}
-                <span className={styles.greenText}>$4.75</span>/day
+                <span className={styles.greenText}>$4.75</span><span className={styles.perPlan}>/day</span>
               </p>
               <p className={styles.plansHeaderPriceText}>OR</p>
               <p className={styles.plansHeaderText}>
                 {" "}
-                <span className={styles.greenText}>$116.75</span>/mo
+                <span className={styles.greenText}>$116.75</span><span className={styles.perPlan}>/mo</span>
               </p>
             </div>
           </div>

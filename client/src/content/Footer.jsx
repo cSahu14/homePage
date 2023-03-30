@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className={styles.footerDiv}>
       <div className={styles.footerFirstDiv}>
-        <div>
+        <div className={styles.footerLogoDiv}>
           <div className={styles.logoDiv}>
               <img src={CompanyLogo} alt="logo" />
               <span className={styles.logoText}>CreativeProxies</span>

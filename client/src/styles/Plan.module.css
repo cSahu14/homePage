@@ -265,6 +265,26 @@ p, h2 {
     margin-left: 34px;
 }
 
+.routingText {
+    /* font-family: 'Figtree'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;  
+    color: #111822;
+    opacity: 0.5;
+}
+
+.perPlan {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: -0.02em;
+}
+
 .bestSellerSecondDiv > p {
     /* font-family: 'Figtree'; */
     font-style: normal;
@@ -508,6 +528,121 @@ p, h5 {
         color: #FFFFFF;
     }
 
+    .subHeading {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.02em;   
+        color: #111822;
+    }
+
+    .plansHeaderPriceText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        color: #111822;
+    }
+    
+    .plansHeaderDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .plansHeaderDiv:nth-child(1) {
+        text-align: start;
+        gap: 8px;
+    }
+    
+    .hrLine {
+        opacity: 0.5;
+        border: 1px solid #D9D8D6;
+    }
+    
+    .routingText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;  
+        color: #111822;
+        opacity: 0.5;
+    }
+
+    .perPlan {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: right;
+        letter-spacing: -0.02em;
+    }
+    
+    .plansHeaderTextDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .plansHeaderText {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: right;
+        letter-spacing: -0.02em;
+    }
+    
+    .plansDetail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .plansDetail > p {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: #111822; 
+        opacity: 0.5;
+    }
+    
+    .plansDetail > ul > li {
+        /* font-family: 'Figtree'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: #111822;
+        opacity: 0.8;
+        margin-bottom: 8px;
+    }
+    
+    .plansDetail > ul > li > img {
+        width: 12.5px;
+        height: 8.5px;   
+        margin-right: 8px;
+    }
+    
+    .plansDetail > ul  {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: start;
+        margin-top: 10px;
+    }
     
     .greenBtn {
         width: 100%;
@@ -575,7 +710,7 @@ p, h5 {
     .bestSellerSecondDiv {
         text-align: start;
         width: 60%;
-        margin-left: 34px;
+        margin-left: 8px;
     }
     
     .bestSellerSecondDiv > p {
@@ -618,6 +753,10 @@ p, h5 {
     .ratingContainer {
         width: 87%;
         margin: auto;
+    }
+
+    .headingContainer > .customerText {
+        width: 80%;
     }
 
     .ratingMainDiv {
