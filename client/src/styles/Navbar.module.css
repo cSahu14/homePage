@@ -182,6 +182,14 @@
         width: 45%;
     }
 
+    .loginDiv {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;   
+        height: 31.5px;
+        border-left: none;
+    }
+
     .loginDiv > span {
         display: none;
     }
