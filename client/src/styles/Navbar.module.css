@@ -59,6 +59,9 @@
     letter-spacing: -0.02em;
     color: #111822;
     /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .arrow {
