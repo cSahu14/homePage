@@ -55,6 +55,9 @@ const Plans = () => {
           <button className={styles.blueBtn}>View Pricing <img src={RightArrow} alt="right arrow" /></button>
         </div>
         <div className={`${styles.plansDivTwo} ${styles.plansDivBorder}`}>
+          <div className={styles.planBestSeller}>
+            BEST SELLER
+          </div>
           <div className={styles.plansHeaderDiv}>
             <div>
               <img src={V6} alt="" />
@@ -102,10 +105,10 @@ const Plans = () => {
           <p>Plan Includes :</p>
           <ul>
             <li><img src={RightIcon} alt="right icon" />100 Threads</li>
-            <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-            <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-            <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-            <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
+            <li><img src={RightIcon} alt="right icon" />Whitelabel IP Pool</li>
+            <li><img src={RightIcon} alt="right icon" />Whitelabel Subnets</li>
+            <li><img src={RightIcon} alt="right icon" />Residential Proxy</li>
+            <li><img src={RightIcon} alt="right icon" />Custom Bandwidth</li>
           </ul>
         </div>
       </div>

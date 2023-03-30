@@ -66,6 +66,24 @@ p, h2 {
     background: rgba(30, 30, 30, 0.01);
     border: 1px solid rgba(30, 30, 30, 0.1);
     border-radius: 5px;
+    position: relative;
+}
+
+.planBestSeller {
+    width: 21%;
+    background: #16D113;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    border-radius: 2px;
 }
 
 
@@ -499,16 +517,34 @@ p, h5 {
         background: rgba(30, 30, 30, 0.01);
         border: 1px solid rgba(30, 30, 30, 0.1);
         border-radius: 5px;
-        height: 376px;
+        height: 356px;
     }
     
     .plansDivTwo {
         width: 70%;
         margin: auto;
         padding: 26px;
-        background: rgba(30, 30, 30, 0.01);
-        border: 1px solid rgba(30, 30, 30, 0.1);
+        background: rgba(22, 209, 19, 0.1);
+        border: 1.71095px solid #16D113;
         border-radius: 5px;
+        position: relative;
+    }
+
+    .planBestSeller {
+        width: 26%;
+        background: #16D113;
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: -0.02em;
+        padding: 5px 10px;
+        color: #FFFFFF;
+        position: absolute;
+        top: -10px;
+        left: 15px;
+        border-radius: 2px;
     }
 
     .blueBtn {
