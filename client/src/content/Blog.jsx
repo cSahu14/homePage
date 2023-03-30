@@ -14,7 +14,7 @@ const Blog = () => {
           augue sit amet mollis molestie.
         </p>
       </div>
-        <p className={styles.blogText}> Read All Blogs <span><img src={RightIcon1} alt="rightArrow" className={styles.rightArrow}/></span> </p>
+        <div className={styles.blogText}> Read All Blogs <span><img src={RightIcon1} alt="rightArrow" className={styles.rightArrow}/></span> </div>
         <div className={styles.blogMainDiv}>
             <div>
                 <div className={styles.blogDiv}>

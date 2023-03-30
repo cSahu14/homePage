@@ -4,21 +4,21 @@ import Navbar from "../Navbar/Navbar";
 import styles from "../styles/Content.module.css";
 import style from "../styles/Proxy.module.css";
 import RightArrow from "../svgIcons/RightArrow.svg"
+import RightIcon1 from "../svgIcons/RightIcon1.svg"
 
 const Proxy = () => {
   return (
-    <div>
+    <div className={style.mainProxyContainer}>
       <Navbar />
       <div className={style.proxyContainerMain}>
         <div>
           <p className={styles.welcomeText}>PROXY LOCATION CHECKER</p>
-          <p className={styles.infoText}>
+          <p className={style.infoText}>
             Check Locations of all your Proxies{" "}
             <span className={styles.blueText}>Free</span> of Cost
           </p>
-          <p className={styles.infoText2}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
-            augue sit amet mollis molestie.
+          <p className={style.infoText2}>
+          To Check location, enter the address or proxies you want to check (1 IP Per line)
           </p>
         </div>
 
@@ -33,19 +33,19 @@ const Proxy = () => {
           <div className={style.btnDiv}>
             <button>Check Location</button>
             <div className={style.policyText}>
-              By using our tool, you agree our Terms of Service and Privacy
-              Policy
+              By using our tool, you agree our <span>Terms of Service</span> and <span>Privacy
+              Policy</span> 
             </div>
           </div>
         </div>
         <div className={style.tableDiv}>
             <div>
-                <p className={styles.blueText}>Your Results</p>
+                <p className={`${styles.blueText} ${style.tableDivText}`}>Your Results</p>
             </div>
-            <div>
-                <table>
+            <div className={style.tableInnerDiv}>
+                <table rules="rows">
                     <thead>
-                        <tr>
+                        <tr className={style.tableRow}>
                             <td>IP</td>
                             <td>PROXY</td>
                             <td>CITY</td>
@@ -88,7 +88,7 @@ const Proxy = () => {
 
         <div className={style.checker}>
             <p>Check out our IPv6 Compatibility Checker</p>
-            <span className={styles.blueText}>View Tool<img src={RightArrow} alt="Right arrow" /></span>
+            <span className={styles.blueText}>View Tool<img src={RightIcon1} alt="Right arrow" className={style.rightArrowIcon}/></span>
         </div>
       </div>
       <Footer />

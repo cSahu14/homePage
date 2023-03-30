@@ -9,7 +9,7 @@ p {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding-top: 55px;
+    padding-top: 95px;
 }
 
 .welcomeText {
@@ -26,7 +26,7 @@ p {
 
 .infoText {
     /* font-family: 'Figtree'; */
-    width: 60vw;
+    width: 55%;
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
@@ -46,7 +46,7 @@ p {
 }
 
 .infoText2 {
-    width: 35vw;
+    width: 35%;
     margin: auto;
     /* font-family: 'Figtree'; */
     font-style: normal;
@@ -70,7 +70,7 @@ p {
     border: none;
     outline: none;
 
-    /* font-family: 'Figtree'; */
+    font-family: 'Figtree';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -117,10 +117,12 @@ p {
 }
 
 .boxes {
-    display: flex;
-    flex-direction: row;
+    width: 62%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 16.16px;
     margin-top: 36.36px;
+
 }
 .boxes > div {
     display: flex;
@@ -128,8 +130,7 @@ p {
     justify-content: center;
     border: 1px solid #D4EAE8;
     border-radius: 5px;
-    width: 20vw;
-    height: 95.28px;
+    padding: 28px 46px 28px 36px;
     gap: 16px;
 }
 
@@ -183,6 +184,7 @@ p {
         flex-direction: column;
         align-items: center;
         padding-top: 55px;
+        margin: 0 1.5rem;
     }
     .welcomeText {
         /* font-family: 'Figtree'; */
@@ -227,9 +229,10 @@ p {
     }
 
     .boxes {
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 16.16px;
+        gap: 13.16px;
         margin-top: 36.36px;
     }
     .boxes > div {
@@ -241,7 +244,7 @@ p {
         width: 90%;
         height: 45.28px;
         gap: 16px;
-        padding: 10px;
+        padding: 7px;
     }
 
     .rectangle {

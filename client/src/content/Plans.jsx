@@ -45,10 +45,10 @@ const Plans = () => {
             <ul>
               <li><img src={RightIcon} alt="right icon" />100 Threads</li>
               <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
+              <li><img src={RightIcon} alt="right icon" />Residential Proxy</li>
+              <li><img src={RightIcon} alt="right icon" />Unlimited Bandwidth</li>
+              <li><img src={RightIcon} alt="right icon" />Worldwide Locations</li>
+              <li><img src={RightIcon} alt="right icon" />40 GBps</li>
             </ul>
           </div>
           <hr className={styles.hrLine}/>
@@ -80,12 +80,12 @@ const Plans = () => {
             <ul>
               <li><img src={RightIcon} alt="right icon" />100 Threads</li>
               <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
-              <li><img src={RightIcon} alt="right icon" />Dedicated IP Pool</li>
+              <li><img src={RightIcon} alt="right icon" />Residential Proxy</li>
+              <li><img src={RightIcon} alt="right icon" />Unlimited Bandwidth</li>
+              <li><img src={RightIcon} alt="right icon" />Worldwide Locations</li>
+              <li><img src={RightIcon} alt="right icon" />Dedicated Subnets</li>
+              <li><img src={RightIcon} alt="right icon" />1 Octilion IPS</li>
+              <li><img src={RightIcon} alt="right icon" />Septiltion per Location</li>
             </ul>
           </div>
           <hr className={styles.hrLine}/>

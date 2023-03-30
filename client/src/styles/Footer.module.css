@@ -2,12 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 75vw;
+    width: 62%;
     margin: auto;
     margin-top: 120px;
     padding-top: 35px;
     border-top: 1px solid #D9D8D6;
     margin-bottom: 35px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: auto;
+    padding-bottom: 48px;
 }
 
 .footerFirstDiv {
@@ -125,12 +129,12 @@ button {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        width: 90%;
+        width: 87%;
         margin-top: 20px;
         padding-top: 15px;
         border-top: 1px solid #D9D8D6;
-        margin-bottom: 15px;
-        margin: 0 1rem;
+        margin: 0 1.5rem;
+        padding-bottom: 25px;
     }
 
     .footerFirstDiv {

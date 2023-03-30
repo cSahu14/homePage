@@ -1,6 +1,14 @@
 import React from "react";
 import styles from "../styles/Proxy.module.css";
 import Feature1 from "../svgIcons/Feature1.svg";
+import ProxyIcon2 from "../svgIcons/ProxyIcon2.svg"
+import ProxyIcon3 from "../svgIcons/ProxyIcon3.svg"
+import ProxyIcon4 from "../svgIcons/ProxyIcon4.svg"
+import ProxyIcon5 from "../svgIcons/ProxyIcon5.svg"
+import ProxyIcon6 from "../svgIcons/ProxyIcon6.svg"
+import ProxyIcon7 from "../svgIcons/ProxyIcon7.svg"
+import ProxyIcon8 from "../svgIcons/ProxyIcon8.svg"
+
 
 const ProxyProviders = () => {
   return (
@@ -25,7 +33,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon2} alt="" />
                     <h3>Feature No 2</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -33,7 +41,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon3} alt="" />
                     <h3>Feature No 3</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -41,7 +49,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon4} alt="" />
                     <h3>Feature No 4</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -49,7 +57,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon5} alt="" />
                     <h3>Feature No 5</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -57,7 +65,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon6} alt="" />
                     <h3>Feature No 6</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -65,7 +73,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon7} alt="" />
                     <h3>Feature No 7</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -73,7 +81,7 @@ const ProxyProviders = () => {
                     </p>
                 </div>
                 <div className={styles.innerBottomDiv}>
-                    <img src={Feature1} alt="" />
+                    <img src={ProxyIcon8} alt="" />
                     <h3>Feature No 8</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec

@@ -131,11 +131,11 @@
 @media (300px <= width <= 760px) {
 
     .navbarContainer {
-        width: 90%;
+        width: 87%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0px 1rem;
+        margin: 0px 1.5rem;
     }
     
     .innerContainer {

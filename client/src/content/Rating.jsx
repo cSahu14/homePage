@@ -10,7 +10,7 @@ const Rating = () => {
         <h2>
           Customers <span className={styles.greenText}>Love</span> our Proxies
         </h2>
-        <p>
+        <p className={styles.customerText}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In luctus
           augue sit amet mollis molestie.
         </p>
@@ -53,7 +53,7 @@ const Rating = () => {
           <div className={styles.profileDetails}>
             <img src={Profile} alt="profile" className={styles.profileImg} />
             <div>
-              <h5>ECHO DZNS</h5>
+              <h5>John Doe</h5>
               <p>Web Designer, CreativeProxies</p>
             </div>
           </div>
