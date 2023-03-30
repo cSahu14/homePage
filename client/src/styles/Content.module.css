@@ -130,9 +130,8 @@ p {
     justify-content: center;
     border: 1px solid #D4EAE8;
     border-radius: 5px;
-    padding: 0px 16px 0px 36px;
+    padding: 28px 36px 28px 36px;
     gap: 16px;
-    height: 95px;
 }
 
 @media (760px <= width <= 1400px) {
@@ -142,9 +141,8 @@ p {
         justify-content: center;
         border: 1px solid #D4EAE8;
         border-radius: 5px;
-        padding: 0px 16px 0px 36px;
+        padding: 28px 16px 28px 36px;
         gap: 16px;
-        height: 95px;
     }
 }
 .boxes > div:nth-child(1) {
