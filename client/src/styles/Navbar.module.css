@@ -25,6 +25,7 @@
 .logoDiv {
     display: flex;
     margin-right: 31px;
+    cursor: pointer;
 }
 
 .logo {
