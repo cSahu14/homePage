@@ -8,6 +8,24 @@ import Rating from '../content/Rating'
 import Navbar from '../Navbar/Navbar'
 import styles from "../styles/Home.module.css"
 const Home = () => {
+  function success(position) {
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+
+    alert(`Latitude: ${latitude} °, Longitude: ${longitude} °`);
+  }
+
+  function error() {
+    alert("Unable to retrieve your location");
+  }
+
+  if (!navigator.geolocation) {
+    alert("Geolocation is not supported by your browser");
+  } else {
+    alert("Locating…");
+    navigator.geolocation.getCurrentPosition(success, error);
+  }
+
   return (
     <div>
         <Navbar/>
